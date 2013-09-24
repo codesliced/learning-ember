@@ -1,0 +1,326 @@
+/* Put your CSS here */
+html, body {
+    margin: 20px;
+    background-color: #53777A;
+}
+
+.active {
+	font-weight: bold;
+}
+
+a:link {
+  color: #542437;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #53777A;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D95B43;
+  text-decoration: none;
+}
+
+header {
+    display: block;
+    background-color: #ECD078;
+    height:80px;
+    margin-top: 0;
+    padding: 0 20px 20px 20px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 16px solid #D95B43;
+
+}
+
+h1 {
+  font-family: 'Radley', serif;
+  /*font-family: 'Shadows Into Light Two', cursive;*/
+  color: #53777A;
+  font-size: 42px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+  padding: 0 40px 40px 40px;
+  border: 4px solid #53777A;
+  font-family: Helvetica, Sans-Serif;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #ECE5CE;
+  height: 100%;
+  min-height: 100%;
+}
+
+.blogposts {
+  margin-top:150px;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 25px;
+}
+
+/* Main page divs */
+.headline {
+  float: right;
+  font-size: 14px;
+  margin-top: 120px;
+  margin-bottom: 15px;
+  font-family: 'Radley', serif;
+}
+
+.author {
+  float:right;
+  font-size: 11px;
+  color: #53777A;
+}
+.author a {
+  color: #53777A;
+}
+
+.author a:hover {
+  color: #542437;
+}
+
+.title {
+  margin-top: 8px;
+  font-family: 'Radley', serif;
+  /*font-family: 'Shadows Into Light Two', cursive;*/
+  font-size: 30px;
+  line-height: 36px;
+  color: #D95B43;
+  margin-bottom: 8px;
+}
+
+.title a {
+  color: #D95B43;
+}
+
+.title a:hover {
+  color: #53777A;
+}
+
+.date {
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #53777A;
+}
+
+.post {
+  font-size: 14px;
+  line-height: 20px;
+  color: #53777A;
+  margin-bottom: 8px;
+}
+
+.tags {
+  font-size: 12px;
+}
+
+.tags_single {
+  font-style: oblique;
+  font-size: 12px;
+}
+
+.tags a:link {
+  font-style: oblique;
+}
+
+span.tag {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 10px;
+  background-color: #ECD078;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+span.tag a:hover {
+  background-color: #53777A;
+  color: #ECE5CE;
+}
+
+span.tag_single {
+  padding-right: 20px;
+  padding-left: 10px;
+}
+
+
+
+
+
+/* create posts */
+
+.create_posts {
+  margin: 160px auto;
+  padding-left: 30px;
+}
+
+.create_posts form {
+  width: 80%;
+}
+
+.create_posts textarea {
+  width: 80%;
+}
+
+label {
+  font-family: 'Radley', serif;
+  color: #53777A;
+  display: inline-block;
+  width: 6em;
+}
+
+.tag_clouds {
+  width: 80%;
+  margin-top: 120px;
+  min-height: 100%;
+}
+
+.author_input {
+  padding-bottom: 2em;
+}
+
+.author_input input {
+  width: 50%;
+}
+
+.title_input {
+  padding-bottom: 2em;
+}
+
+.tags_input {
+  padding-bottom: 2em;
+}
+
+.tags_input input {
+  width: 50%;
+}
+
+.title_input input {
+  width: 50%;
+} 
+
+.content_input {
+  padding-bottom: 2em;
+}
+
+footer {
+  clear: both;
+  font-size:12px;
+  text-align: center;
+  margin-top: 20%;
+  font-family: 'Radley', serif;
+  color:#53777A;
+
+}
+
+.submit_btn {
+  margin-top: 2em;
+}
+
+.post_btn {
+  background-color: #D95B43;
+  font-size: 14px;
+  color: #ECE5CE;
+  border: 0;
+  font-family: 'Radley', serif;
+  height:30px;
+  width: 80px;
+  border-radius: 8px;
+}
+
+.post_btn a:link {
+  color: #53777A;
+}
+
+.single_post {
+  margin-top:140px;
+}
+
+.single_post_author {
+  float:right;
+  font-size: 12px;
+  color: #53777A;
+  margin-right: 5px;
+}
+
+.single_post_delete {
+  background-color: #D95B43;
+  font-size: 14px;
+  color: #ECE5CE;
+  border: 0;
+  font-family: 'Radley', serif;
+  height: 30px;
+  width: 80px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.modify_buttons {
+  display: block;
+}
+
+#edit {
+  float: right;
+  margin-right: 15px;
+}
+
+#delete {
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #53777A;
+}
+
+.single_post_created {
+  float:right;
+  font-size: 12px;
+  color: #53777A;
+  margin-right:5px;
+  margin-top: 10px;
+}
+
+.single_post_edit {
+  background-color: #D95B43;
+  font-size: 14px;
+  color: #ECE5CE;
+  border: 0;
+  font-family: 'Radley', serif;
+  height: 30px;
+  width: 80px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.blog_form {
+  color: #53777A;
+  font-style: oblique;
+  font-size: 11px;
+}
+
+/*
+Scheme 1
+#ECD078 - mustard
+#D95B43 - orange
+#C02942 - Pink
+#542437 - Purple
+#53777A - Blue
+#ECE5CE - Beige
+
+
+Scheme 2
+http://www.colourlovers.com/palette/49963/let_them_eat_cake
+#774F38 - brown
+#E08E79 - strawberry
+#F1D4AF - creme
+#ECE5CE - beige
+#C5E0DC - powder blue
+
+
+*/
